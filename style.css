@@ -1,0 +1,27 @@
+.main{
+  background-color: aqua;
+  
+}
+.name{
+
+  width: auto;
+  right: 10px;
+  font-size: 22px;
+  position:fixed !important;
+
+
+}
+.score{
+  font-size: 22px;
+  position:fixed !important;  
+}
+
+
+#bullhorn{
+color: red;
+font-size: 32px;
+transition-duration: 200ms;
+transition-timing-function: ease-out;
+position: fixed;
+transform: translateX(-50%) translateY(-50%);
+}
