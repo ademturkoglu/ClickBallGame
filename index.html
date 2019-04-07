@@ -20,7 +20,7 @@ $(document).ready(function () {
   var bcolorB = Math.floor((Math.random() * 256)); 
   var top = Math.floor (Math.random ()*($(window).height ()));
   var left = Math.floor (Math.random ()*($(window).width ()));
-  $(".main").append('<i class="fas fa-volleyball-ball" style= "position: absolute; background-color: rgb('+bcolorR+','+bcolorG+','+bcolorB+');font-size: 64px; border-radius: 100px;color: rgb('+colorR+','+colorG+','+colorB+'); top:'+top+'px; left:'+left+'px; "></i>');
+  $(".main").append('<i class="fas fa-volleyball-ball" style= "position: absolute; background-color: rgba('+bcolorR+','+bcolorG+','+bcolorB+','+0.5+');font-size: 64px; border-radius: 100px;color: rgba('+colorR+','+colorG+','+colorB+','+0.5+'); top:'+top+'px; left:'+left+'px; "></i>');
 
 
   clearInterval(temp);
